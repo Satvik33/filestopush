@@ -1,0 +1,165 @@
+body{
+	font-family : sans-serif;
+	margin-left: 0 ;
+	margin-top: 0;
+}
+.top{
+	margin-top: 0;
+	background-color: white;
+	position: -webkit -sticky;
+	position: sticky;
+	top: 0;
+}
+
+.top li{
+	display : inline;
+	text-transform: uppercase;
+	margin-left : 50px;
+	
+
+}
+.top ul a{
+	text-decoration: none;
+	color : black;
+	font-size: 12px;
+}
+.title{
+	height: 50px;
+	width : 100px;
+	border-right: solid;
+	border-right-color: grey;
+	border-right-width: 1px;
+	border-bottom-style: groove;
+	border-bottom-color: grey;
+	float : left;
+}
+.nav{
+	
+	height : 50px;
+	border-bottom-style: groove;
+	border-bottom-color: grey;
+}
+h2{
+margin-top : 0;
+
+}
+ul a:hover{
+	color : skyblue;
+}
+.pagetitle{
+	float:left;
+	background-color: lightgrey;
+	height: 150px;
+}
+.pagetitle h1, span{
+	margin-left: 50px;
+}
+
+.path li{
+	display : inline;
+
+
+}
+.p{
+	background-color: lightgrey;
+	height: 150px;
+	margin-top: -16px;
+}
+
+
+
+.path a{
+	text-decoration: none;
+	color: black;
+	margin-top: 50px;
+}
+#content{
+	display: flex;
+	margin-top: 50px;
+}
+.art1, .art2, .art3{
+	width: 400px;
+}
+.art2, .art3{
+	margin-left: 30px;
+}
+.para{
+	display: flex;
+	border: solid;
+	border-style: groove;
+}
+.sec1{
+	background-color: pink;
+	color: blue;
+}
+.sec2{
+	background-color: blue;
+	color: pink;
+}
+.sec1, .sec2{
+	width : 600px;
+}
+.sec1, .sec2{
+	padding-left: 100px;
+}
+.sec1 h2,p, .sec2 h2,p{
+	padding-right: 50px;
+}
+.options{
+	background-color: lightgrey;
+}
+.options h4{
+	text-decoration: italic;
+}
+.options h2, h4{
+	text-align: center;
+}
+.parallax{
+	background-image: url("macbook.png");
+	min-height: 800px; 
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#refer{
+	background-color: skyblue;
+	margin-top: 20px;
+}
+#refer a{
+	text-decoration: none;
+	text-align: center;
+}
+#refer:hover{
+	background-color: black;
+}
+.thanks{
+	text-align: center;
+	background-color: yellow;
+}
+footer{
+	background-color: black;
+	display:flex;
+	font-family: 'Playfair Display';
+}
+.ref{
+	width: 1200px;
+	color: white;
+}
+.ref a{
+	color:white;
+}
+
+.icons li{
+	display: inline;
+}
+
+
+.icons{
+	width: 200px;
+	background-color: blue;
+}
+.icons a{
+	color: black;
+}

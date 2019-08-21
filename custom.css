@@ -1,13 +1,19 @@
+body{
+	width : 100%;
+}
 .navbar-brand{
 	display:flex;
 	align-items: center;
 	}
-.item-active img, .item img{
+.img-responsive{
+
 	width : 100%;
 
 }
-#myCarousel section{
-	max-width : 100%;
+#myCarousel{
+	position : relative;
+	width : 100%;
+
 }
 
 .wrapper button{
@@ -21,4 +27,11 @@ section h2{
 }
 section p img{
 	width : 100%;
+}
+@media screen and(max-width: 768px){
+	.wrapper button{
+		position : absolute;
+		top : 110%;
+		text-align: center;
+	}
 }

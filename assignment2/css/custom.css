@@ -1,5 +1,31 @@
 body{
-	width : 100%;
+	max-width : 98%;
+	position : relative;
+	max-height : 740px;
+}
+main {
+  background-image:url(../img/backgroundimage.jpg);
+  background-repeat: no-repeat;
+  min-height: 679px;
+  background-size: cover;
+  position: absolute;
+  width : 102%;
+
+}
+#navigation{
+	max-width: 100%;
+}
+#jumbo{
+	background-image:url(../img/jumbotron-backimg.jpg);
+  background-repeat: no-repeat;
+  min-height: 600px;
+  background-size: cover;
+  
+}
+#outlier{
+	padding-top: 200px;
+	color : white;
+	text-align: center;
 }
 .navbar-brand{
 	display:flex;
@@ -11,7 +37,7 @@ body{
 
 }
 #myCarousel{
-	position : relative;
+	
 	width : 100%;
 
 }
@@ -24,6 +50,7 @@ body{
 }
 section h2{
 	font-family: 'Almendra SC';
+	color : #e60000;
 }
 section p img{
 	width : 100%;
@@ -34,4 +61,8 @@ section p img{
 		top : 110%;
 		text-align: center;
 	}
+}
+
+footer{
+	background-color: #222;
 }

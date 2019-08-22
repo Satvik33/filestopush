@@ -1,0 +1,233 @@
+*{
+	box-sizing : border-box;
+}
+body{
+	font-family : sans-serif;
+	margin-left: 0 ;
+	margin-top: 0;
+}
+.top{
+	display:flex;
+	margin-top: 0;
+	background-color: white;
+	position: -webkit -sticky;
+	position: sticky;
+	top: 0;
+	border-bottom-style: groove;
+	border-bottom-color: grey;
+	max-width: 100%;
+	justify-content: space-between;
+	margin-right: 0;
+	
+	
+}
+
+
+
+.top li{
+	display : inline;
+	text-transform: uppercase;
+}
+
+	
+
+
+.top ul a{
+	text-decoration: none;
+	color : black;
+	font-size: 12px;
+
+}
+.nav{
+	
+	max-width: 100%;
+	display : flex;
+	justify-content: flex-end;
+	margin-right: 10%;
+}
+.title{
+	width : 10%;
+	min-width : 5%;
+	border-right: solid;
+	border-right-color: grey;
+	border-right-width: 1px;
+}
+@media screen and (max-width : 1000px){
+	.top{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.title{
+		width : 100%;
+		border-right: hidden;
+		border-bottom: solid;
+		border-bottom-color: grey;
+	}
+	.title h2{
+		text-align: center;
+	}
+
+}
+
+
+
+
+
+ul a:hover{
+	color : skyblue;
+}
+.hero{
+	display : flex;
+	background-color: lightgrey;
+	align-items : center;
+	justify-content: space-between;
+	justify-content: space-around;
+}
+
+
+.path{
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.path li{
+	display : inline;
+
+
+}
+
+
+
+
+.path a{
+	text-decoration: none;
+	color: black;
+	
+}
+@media screen and (max-width : 508px){
+	.hero{
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+	.nav{
+		display:flex;
+		flex-direction:column;
+		align-items: center;
+	}
+}
+#content{
+	display: flex;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+.art1, .art2, .art3{
+	
+	height: 500px;
+	
+	
+}
+@media screen and (max-width : 1000px){
+	#content{
+		display : flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+.para{
+	display: flex;
+	border: solid;
+	border-style: groove;
+
+}
+.sec1{
+	background-color: #333;
+	color: blue;
+}
+.sec2{
+	background-color: blue;
+	color: #333;
+}
+.sec1, .sec2{
+	width : 50%;
+	min-width: 360px;
+	padding-left : 100px;
+}
+
+.sec1 h2,p, .sec2 h2,p{
+	padding-right: 50px;
+}
+@media screen and (max-width : 644px){
+	.para{
+		display : flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+.options{
+	background-color: lightgrey;
+}
+.options h4{
+	font-style: italic;
+}
+.options h2, h4{
+	text-align: center;
+}
+.parallax{
+	background-image: url("../macbook.png");
+	min-height: 800px; 
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+
+}
+
+#refer{
+	background-color: skyblue;
+	margin-top: 20px;
+}
+#refer a{
+	text-decoration: none;
+	text-align: center;
+}
+#refer:hover{
+	background-color: black;
+}
+.thanks{
+	text-align: center;
+	background-color: yellow;
+}
+footer{
+	background-color: #996633;
+	display:flex;
+	font-family: 'Playfair Display';
+}
+.ref{
+	width: 1200px;
+	color: white;
+}
+.ref a{
+	color:white;
+}
+
+.icons li{
+	display: inline;
+}
+
+
+.icons{
+	width: 200px;
+	background-color: blue;
+}
+.icons a{
+	color: black;
+}
+img{
+	max-width : 100%;
+	height:auto;
+}

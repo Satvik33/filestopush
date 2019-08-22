@@ -24,9 +24,11 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
       <![endif]-->
       <!-- Add your site or application content here -->
-      <header class = "top">
+      <main class = "container-fluid">
+         
+         <header class = "top">
          <!--making navigator-->
-         <nav class="navbar navbar-inverse navbar-fixed-top">
+         <nav class="navbar navbar-inverse navbar-fixed-top" id = "navigation">
             <div class="container-fluid">
                <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -42,12 +44,12 @@
                      <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">FIFA Sites <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                           <li><a href="#">FIFA WC</a></li>
-                           <li><a href="#">FIFA Confederations Cup</a></li>
-                           <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=11&cad=rja&uact=8&ved=2ahUKEwiytaTz2JPkAhWhheYKHaJcDWoQFjAKegQIABAB&url=https%3A%2F%2Fwww.fifa.com%2Fthe-best-fifa-football-awards%2F&usg=AOvVaw2TSv9IMyEVpcxil-YBKT-G">FIFA The BEST</a></li>
+                           <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=14&cad=rja&uact=8&ved=2ahUKEwiN2NTMzpXkAhVMy6QKHQGsA_4QFjANegQIAhAB&url=https%3A%2F%2Fwww.fifa.com%2Fworldcup%2F&usg=AOvVaw0w9pZtO7TVj_qBKoQzz94V" target="_blank">FIFA WC</a></li>
+                           <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&cad=rja&uact=8&ved=2ahUKEwiomaPlzpXkAhWQC-wKHTChAagQFjAFegQIDBAB&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFIFA_Confederations_Cup&usg=AOvVaw11zxdvcuNTgN2JfzjVWTZw" target = "_blank">FIFA Confederations Cup</a></li>
+                           <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=11&cad=rja&uact=8&ved=2ahUKEwiytaTz2JPkAhWhheYKHaJcDWoQFjAKegQIABAB&url=https%3A%2F%2Fwww.fifa.com%2Fthe-best-fifa-football-awards%2F&usg=AOvVaw2TSv9IMyEVpcxil-YBKT-G" target="_blank">FIFA The BEST</a></li>
                         </ul>
                      </li>
-                     <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=10&cad=rja&uact=8&ved=2ahUKEwiytaTz2JPkAhWhheYKHaJcDWoQFjAJegQIAxAB&url=https%3A%2F%2Fwww.goal.com%2Fen-in%2Fnews%2Fwho-will-win-ballon-dor-2019-van-dijk-messi-ronaldo-the%2Fjkt4aog2pk581c4ktxzh8t9yo&usg=AOvVaw00ABmtDyZnbiSVy_nSUuvw">FIFA Ballon D'Or</a></li>
+                     <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=10&cad=rja&uact=8&ved=2ahUKEwiytaTz2JPkAhWhheYKHaJcDWoQFjAJegQIAxAB&url=https%3A%2F%2Fwww.goal.com%2Fen-in%2Fnews%2Fwho-will-win-ballon-dor-2019-van-dijk-messi-ronaldo-the%2Fjkt4aog2pk581c4ktxzh8t9yo&usg=AOvVaw00ABmtDyZnbiSVy_nSUuvw" target="_blank">FIFA Ballon D'Or</a></li>
                      <li><a href="#">Contact Us</a></li>
                   </ul>
                   <ul class="nav navbar-nav navbar-right">
@@ -67,16 +69,15 @@
                </div>
             </div>
          </nav>
-         </div>
-         </nav> 
+         
       </header>
-      <section class="container-fluid">
-         <div class="jumbotron">
+      <section class="container-fluid" >
+         <div class="jumbotron jumbotron-fluid" id = "jumbo">
             <div class="container">
-               <h1 class="display-4">Welcome to the platform of Worst Footballers in 2019</h1>
-               <p class="lead">Who will Win this Coveted Prize? </p>
+               <h1 class="display-4" id = "heading" style="color : white">Welcome to the platform of Worst Footballers in 2019</h1>
+               <p class="lead" id = "description" style="color : black">Who will Win this Coveted Prize? </p>
                <hr class="my-4">
-               <p>And the Nominees Are!</p>
+               <h2 id = "outlier">And the Nominees Are!</h2>
             </div>
          </div>
       </section>
@@ -85,17 +86,17 @@
          <section class="col-sm-4">
             <h2>LUKAKU</h2>
             <h4>Manchester United</h4>
-            <p><img src="img/lukaku_stats"></p>
+            <p><a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Ffmdataba.com%2Fimages%2Fprofile%2F19-18007344-romelu-lukaku-2021.jpg&imgrefurl=https%3A%2F%2Ffmdataba.com%2F19%2Fp%2F4372%2Fromelu-lukaku%2F&docid=3xF5W7EV0gHEXM&tbnid=wSBOgZ4Hk-qDTM%3A&vet=10ahUKEwiBqv_ozZXkAhXM1qQKHQLkCtoQMwg5KAAwAA..i&w=642&h=555&client=ubuntu&bih=630&biw=1296&q=lukaku%20fmdataba&ved=0ahUKEwiBqv_ozZXkAhXM1qQKHQLkCtoQMwg5KAAwAA&iact=mrc&uact=8" target="_blank"><img src="img/lukaku_stats" alt = "lukakustats"></a></p>
          </section>
          <section class="col-sm-4">
             <h2>MORATA</h2>
             <h4>Chelsea</h4>
-            <p><img src="img/morata_stats.jpg"></p>
+            <p><a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Ffmdataba.com%2Fimages%2Fprofile%2F19-67117360-lvaro-morata-2021.jpg&imgrefurl=https%3A%2F%2Ffmdataba.com%2F19%2Fp%2F84320%2Flvaro-morata%2F&docid=X9tkh2357Fa78M&tbnid=adbql2SGWCe-4M%3A&vet=10ahUKEwiTrPn5zZXkAhUFCuwKHVTLC8gQMwhCKAAwAA..i&w=642&h=555&client=ubuntu&bih=630&biw=1296&q=morata%20fmdataba&ved=0ahUKEwiTrPn5zZXkAhUFCuwKHVTLC8gQMwhCKAAwAA&iact=mrc&uact=8" target="_blank"><img src="img/morata_stats.jpg" alt = "moratastats"></a></p>
          </section>
          <section class="col-sm-4">
             <h2>BENZEMA</h2>
             <h4>Real Madrid</h4>
-            <p><img src="img/benzema_stats.jpg"></p>
+            <p><a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Ffmdataba.com%2Fimages%2Fprofile%2F19-8435089-karim-benzema-2021.jpg&imgrefurl=https%3A%2F%2Ffmdataba.com%2F19%2Fp%2F664%2Fkarim-benzema%2F&docid=kpqWaAdlIUYj0M&tbnid=C08vp4wvCxWi0M%3A&vet=10ahUKEwjdsumkzpXkAhVBjqQKHZIyBVQQMwg4KAAwAA..i&w=642&h=555&client=ubuntu&bih=630&biw=1296&q=benzema%20fmdataba&ved=0ahUKEwjdsumkzpXkAhVBjqQKHZIyBVQQMwg4KAAwAA&iact=mrc&uact=8" target="_blank"><img src="img/benzema_stats.jpg" alt = "benzemastats"></a></p>
          </section>
       </div>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -196,15 +197,16 @@
             <span class="glyphicon glyphicon-chevron-right"></span>
             <span class="sr-only">Next</span>
             </a>
-      </div>
+      
       </section>
+   </div>
       <!-- Footer -->
       <footer class="page-footer font-small stylish-color-dark pt-4">
          <hr>
          <!-- Call to action -->
          <ul class="list-unstyled list-inline text-center py-2">
             <li class="list-inline-item">
-               <h5 class="mb-1">Register for free</h5>
+               <h5 class="mb-1" style = "color : white">Register for free</h5>
             </li>
             <li class="list-inline-item">
                <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
@@ -248,6 +250,11 @@
          <!-- Copyright -->
       </footer>
       <!-- Footer -->
+   
+
+
+</div>
+</main>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
       <script src="js/vendor/modernizr-3.7.1.min.js"></script>

@@ -2,6 +2,7 @@ body{
 	max-width : 98%;
 	position : relative;
 	max-height : 740px;
+
 }
 main {
   background-image:url(../img/backgroundimage.jpg);
@@ -10,7 +11,7 @@ main {
   background-size: cover;
   position: absolute;
   width : 102%;
-
+  font-family : 'PT Serif', serif;
 }
 #navigation{
 	max-width: 100%;

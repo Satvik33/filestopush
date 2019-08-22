@@ -5,12 +5,13 @@
    <head>
       <meta charset="utf-8">
       <title>My Responsive WebPage</title>
-      <meta name="description" content="">
+      <meta name="description" content="Worst Football Player Award">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <script src="https://kit.fontawesome.com/e5a8062d84.js"></script>
+      
       <link rel="manifest" href="site.webmanifest">
       <link rel="apple-touch-icon" href="icon.png">
       <!-- Place favicon.ico in the root directory -->
+      <link href = 'https://fonts.google.com/' rel = "stylesheet">
       <link rel="stylesheet" href="../default_css/normalize.css">
       <link rel="stylesheet" href="../default_css/main.css">
       <link href='https://fonts.googleapis.com/css?family=Almendra SC' rel='stylesheet'>
@@ -25,12 +26,15 @@
       <![endif]-->
       <!-- Add your site or application content here -->
       <main class = "container-fluid">
-         
+         <!--header-->
          <header class = "top">
          <!--making navigator-->
          <nav class="navbar navbar-inverse navbar-fixed-top" id = "navigation">
+         	<!--adding container-->
             <div class="container-fluid">
+            	<!-- navbar title -->
                <div class="navbar-header">
+               	<!-- using collapse class for making the page responsive -->
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
@@ -38,9 +42,13 @@
                   </button>
                   <a class="navbar-brand" href="#">Failon D'Or</a>
                </div>
+               <!-- collapsive navbar -->
                <div class="collapse navbar-collapse" id="myNavbar">
+               	<!-- list of tabs -->
                   <ul class="nav navbar-nav">
+                  	<!-- usage of active class -->
                      <li class="active"><a href="#">Home</a></li>
+                     <!-- dropdown menu -->
                      <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">FIFA Sites <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -52,10 +60,12 @@
                      <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=10&cad=rja&uact=8&ved=2ahUKEwiytaTz2JPkAhWhheYKHaJcDWoQFjAJegQIAxAB&url=https%3A%2F%2Fwww.goal.com%2Fen-in%2Fnews%2Fwho-will-win-ballon-dor-2019-van-dijk-messi-ronaldo-the%2Fjkt4aog2pk581c4ktxzh8t9yo&usg=AOvVaw00ABmtDyZnbiSVy_nSUuvw" target="_blank">FIFA Ballon D'Or</a></li>
                      <li><a href="#">Contact Us</a></li>
                   </ul>
+                  <!-- usage of glyphicons on the right of the navbar -->
                   <ul class="nav navbar-nav navbar-right">
                      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                   </ul>
+                  <!-- making search textbox and glyphicon button -->
                   <form class="navbar-form navbar-right" action="/action_page.php">
                      <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search">
@@ -72,6 +82,7 @@
          
       </header>
       <section class="container-fluid" >
+      	<!-- usage of jumbotron -->
          <div class="jumbotron jumbotron-fluid" id = "jumbo">
             <div class="container">
                <h1 class="display-4" id = "heading" style="color : white">Welcome to the platform of Worst Footballers in 2019</h1>
@@ -81,8 +92,10 @@
             </div>
          </div>
       </section>
+      <!-- using grid property -->
       <div class="row">
       <div class="container-fluid">
+      	<!-- columns of size 4 -->
          <section class="col-sm-4">
             <h2>LUKAKU</h2>
             <h4>Manchester United</h4>
@@ -99,6 +112,8 @@
             <p><a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Ffmdataba.com%2Fimages%2Fprofile%2F19-8435089-karim-benzema-2021.jpg&imgrefurl=https%3A%2F%2Ffmdataba.com%2F19%2Fp%2F664%2Fkarim-benzema%2F&docid=kpqWaAdlIUYj0M&tbnid=C08vp4wvCxWi0M%3A&vet=10ahUKEwjdsumkzpXkAhVBjqQKHZIyBVQQMwg4KAAwAA..i&w=642&h=555&client=ubuntu&bih=630&biw=1296&q=benzema%20fmdataba&ved=0ahUKEwjdsumkzpXkAhVBjqQKHZIyBVQQMwg4KAAwAA&iact=mrc&uact=8" target="_blank"><img src="img/benzema_stats.jpg" alt = "benzemastats"></a></p>
          </section>
       </div>
+  </div>
+  <!-- carousel -->
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
          <section class="container-fluid">
             <!-- Indicators -->
@@ -111,12 +126,15 @@
             <div class="carousel-inner">
                <div class="item active">
                   <img class = "img-responsive" src="img/lukaku.webp" alt="Lukaku">
+                  <!-- wrapper for button -->
                   <div class="wrapper">
+                  	<!-- modal button -->
                      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">
                      VOTE NOW
                      </button>
                   </div>
                </div>
+               <!-- inside the modal box -->
                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                      <div class="modal-content">
@@ -250,11 +268,8 @@
          <!-- Copyright -->
       </footer>
       <!-- Footer -->
-   
-
-
-</div>
-</main>
+  </main>
+	<script src="https://kit.fontawesome.com/e5a8062d84.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
       <script src="js/vendor/modernizr-3.7.1.min.js"></script>

@@ -52,6 +52,7 @@ body{
 	border-right-color: grey;
 	border-right-width: 1px;
 }
+/*to make the page responsive*/
 @media screen and (max-width : 1000px){
 	.top{
 		display: flex;
@@ -72,7 +73,7 @@ body{
 
 
 
-
+/*usage of pseudo class*/
 
 ul a:hover{
 	color : skyblue;
@@ -176,7 +177,8 @@ ul a:hover{
 .options h2, h4{
 	text-align: center;
 }
-.parallax{
+/*usage of parallax*/
+.parallax{ 
 	background-image: url("../img/macbook.png");
 	min-height: 800px; 
 	background-attachment: fixed;
@@ -205,6 +207,7 @@ ul a:hover{
 footer{
 	background-color: #996633;
 	display:flex;
+	/*usage of google fonts*/
 	font-family: 'Playfair Display';
 }
 .ref{
